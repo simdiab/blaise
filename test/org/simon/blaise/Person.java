@@ -1,9 +1,15 @@
 package org.simon.blaise;
 
-public class Person
+import org.junit.Before;
+
+import java.io.Serializable;
+
+public class Person implements Serializable
 {
     private String name;
     private String occupation;
+
+
 
     public String getName() {
         return name;
